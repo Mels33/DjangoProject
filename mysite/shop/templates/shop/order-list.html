@@ -1,0 +1,49 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% translate 'Orders' %}
+{% endblock %}
+
+{% block body %}
+    <h1> {% translate 'Order list' %} </h1>
+    <div>
+        {% blocktranslate count orders_count=orders|length %}
+            There is only one order.
+            {% plural %}
+            There is {{ orders_count }} orders.
+        {% endblocktranslate %}
+    </div>
+    <ul>
+        {% for order in orders %}
+            {{ forloop.counter }})
+            <ul>
+                <li> {% translate 'Delivery address' %}:
+                    <a href="{% url 'order_details' pk=order.pk %}">
+                    {{ order.delivery_address }}
+                </a>
+                </li>
+                <li> {% translate 'User' %}: {{ order.user }} </li>
+            </ul>
+        {% endfor %}
+    </ul>
+    {% if orders %}
+        <div>
+            <a href="{% url 'create_order' %}">
+                {% translate 'Create new order' %}
+            </a>
+        </div>
+    {% else %}
+        <div>
+            <a href="{% url 'create_order' %}">
+                {% translate 'Create your first order.' %}
+            </a>
+        </div>
+    {% endif %}
+    <p></p>
+    <div>
+        <a href="{% url 'index' %}">
+            {% translate 'Back to main page' %}
+        </a>
+    </div>
+{% endblock %}

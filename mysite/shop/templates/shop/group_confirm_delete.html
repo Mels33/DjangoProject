@@ -1,0 +1,24 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% translate 'Group delete' %}
+{% endblock %}
+
+
+{% block body %}
+    <h1> {% translate 'Deleting a group' %} </h1>
+    <form method="post">
+        <h2> {% translate 'Are you sure you want to delete group' %} {{ object.name }}? </h2>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">
+            {% translate 'Delete' %}
+        </button>
+    </form>
+    <div>
+        <a href="{% url 'group_details' pk=object.pk %}">
+            {% translate 'Back to group details' %}
+        </a>
+    </div>
+{% endblock %}

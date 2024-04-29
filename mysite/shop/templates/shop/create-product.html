@@ -1,0 +1,23 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% translate 'Create product' %}
+{% endblock %}
+
+
+{% block body %}
+    <h1> {% translate 'Create product' %} </h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">
+            {% translate 'Create' %}
+        </button>
+    </form>
+    <div>
+        <a href="{% url 'products' %}">
+            {% translate 'Back to product list' %}
+        </a>
+    </div>
+{% endblock %}

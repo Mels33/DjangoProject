@@ -1,0 +1,22 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% translate 'Group update' %}
+{% endblock %}
+
+
+{% block body %}
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">
+            {% translate 'Update' %}
+        </button>
+    </form>
+    <div>
+        <a href="{% url 'group_details' pk=group.pk %}">
+            {% translate 'Back to group details' %}
+        </a>
+    </div>
+{% endblock %}

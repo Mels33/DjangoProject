@@ -1,0 +1,64 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block body %}
+    <h1> {{ hello }} </h1>
+    <div>
+        {% translate 'Runtime' %}: {{ runtime }}
+    </div>
+    <p></p>
+    <div>
+        {% lorem 3 p random %}
+    </div>
+    <p></p>
+    {% if user.is_authenticated %}
+        <div>
+            <a href="{% url 'blog' %}"> {% translate 'Blog' %} </a>
+        </div>
+        <p></p>
+        <div>
+            <a href="{% url 'products' %}">
+                {% translate 'Go to view the list of products' %}
+            </a>
+        </div>
+        <p></p>
+        <div>
+            <a href="{% url 'orders' %}">
+                {% translate 'Go to view the list of orders' %}
+            </a>
+        </div>
+        <p></p>
+        <div>
+            <a href="{% url 'groups' %}">
+                {% translate 'Go to view the list of groups' %}
+            </a>
+        </div>
+       <p></p>
+        <table>
+            <tr>
+                <td>
+                    <a href="{% url 'logout' %}"> {% translate 'Log out' %} </a>
+                </td>
+                <td>
+                    |
+                </td>
+                <td>
+                    <a href="{% url 'profile' pk=user.pk %}"> {% translate 'Profile' %} </a>
+                </td>
+            </tr>
+        </table>
+    {% else %}
+        <div>
+            <a href="{% url 'login' %}">
+                {% translate 'Log in' %}
+            </a>
+        </div>
+        <div>
+            <a href="{% url 'blog' %}"> Blog </a>
+        </div>
+    {% endif %}
+{% endblock %}

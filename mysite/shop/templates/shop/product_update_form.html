@@ -1,0 +1,18 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% translate 'Update product' %}
+{% endblock %}
+
+
+{% block body %}
+    <h1> {% translate 'Product update' %} </h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">
+            {% translate 'Update' %}
+        </button>
+    </form>
+{% endblock %}

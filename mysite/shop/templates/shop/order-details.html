@@ -1,0 +1,40 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% translate 'Order details' %}
+{% endblock %}
+
+
+{% block body %}
+    <h1> {% translate 'Order details' %} </h1>
+        <ul>
+            <li> {% translate 'Delivery address' %}: {{ order.delivery_address }} </li>
+            <li> {% translate 'Promo code' %}: {{ order.promocode }} </li>
+            <li> {% translate 'Creation date' %}: {{ order.created_at }} </li>
+            <li> {% translate 'User' %}: {{ order.user }} </li>
+            <li> {% translate 'Products' %} </li>
+            <ul>
+                {% for product in order.products.all %}
+                <li> {{ product }} </li>
+            {% endfor %}
+            </ul>
+        </ul>
+    <div>
+        <a href="{% url 'orders' %}">
+            {% translate 'Back to order list' %}
+        </a>
+    </div>
+    <p></p>
+    <div>
+        <a href="{% url 'update_order' pk=order.pk %}">
+            {% translate 'Order update' %}
+        </a>
+    </div>
+    <p></p>
+    <div>
+        <a href="{% url 'delete_order' pk=order.pk %}">
+            {% translate 'Delete order' %}
+        </a>
+    </div>
+{% endblock %}

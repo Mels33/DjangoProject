@@ -1,0 +1,46 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% translate 'Products' %}
+{% endblock %}
+
+{% block body %}
+    <h1> {% translate 'My product list' %} </h1>
+    <div>
+        {% blocktranslate count products_count=products|length %}
+            There is only one product.
+            {% plural %}
+            There are {{ products_count }} products.
+        {% endblocktranslate %}
+    </div>
+    <ul>
+        {% for product in products %}
+            <p><a href="{% url 'product_details' pk=product.pk %}">
+                    {{ forloop.counter }}) {% translate 'Product' %}: {{ product.name }}
+                </a></p>
+            <ul>
+                <li> {% translate 'Price' %}: ${{ product.price }} </li>
+            </ul>
+        {% endfor %}
+    </ul>
+    {% if products %}
+        <div>
+            <a href="{% url 'create_product' %}">
+                {% translate 'Create new product' %}
+            </a>
+        </div>
+    {% else %}
+        <div>
+            <a href="{% url 'create_product' %}">
+                {% translate 'Create your first product' %}
+            </a>
+        </div>
+    {% endif %}
+    <p></p>
+    <div>
+        <a href="{% url 'index' %}">
+            {% translate 'Back to main page' %}
+        </a>
+    </div>
+{% endblock %}

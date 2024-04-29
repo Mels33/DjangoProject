@@ -1,0 +1,23 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block title%}
+    {% translate 'Registration' %}
+{% endblock %}
+
+{% block body %}
+    <h1> {% translate 'Registration' %} </h1>
+    <form method="post" action="{% url 'registration' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">
+            {% translate 'Registration' %}
+        </button>
+    </form>
+    <div>
+        <a href="{% url 'index' %}"> {% translate 'Main page' %} </a>
+    </div>
+    <div>
+        <a href="{% url 'login' %}"> {% translate 'Back to log in page' %} </a>
+    </div>
+{% endblock %}

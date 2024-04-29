@@ -1,0 +1,36 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% translate 'Groups' %}
+{% endblock %}
+
+{% block body %}
+    <ul>
+            {% translate 'Group name' %}: <b> {{ group.name }} </b>
+            <ul>
+                {% for permission in group.permissions.all %}
+                    <li>
+                        {{ permission.name }} (<code> {{ permission.codename }} </code>)
+                    </li>
+                {% endfor %}
+            </ul>
+    </ul>
+    <div>
+        <a href="{% url 'groups' %}">
+            {% translate 'Back to group list' %}
+        </a>
+    </div>
+    <p></p>
+    <div>
+        <a href="{% url 'update_group' pk=group.pk %}">
+            {% translate 'Group update' %}
+        </a>
+    </div>
+    <p></p>
+    <div>
+        <a href="{% url 'delete_group' pk=group.pk %}">
+            {% translate 'Group Delete' %}
+        </a>
+    </div>
+{% endblock %}
