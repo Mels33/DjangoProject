@@ -9,11 +9,10 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 from django.utils.translation import gettext_lazy as _
-from decouple import config
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -27,7 +26,11 @@ SECRET_KEY = 'django-insecure-&z6-ydtxx-4oc%hf=cc)s%8!%e!rw9v4718e%q_6&5=urau96s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+INTERNAL_IPS = [
+    '127.0.0.1',
+]
+
 
 
 # Application definition
@@ -44,6 +47,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'drf_spectacular',
+    'debug_toolbar',
 
     'shop.apps.ShopConfig',
     'requestdataapp.apps.RequestdataappConfig',
@@ -63,6 +67,8 @@ MIDDLEWARE = [
 
     'django.middleware.locale.LocaleMiddleware',
     'django.contrib.admindocs.middleware.XViewMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
+
 ]
 
 ROOT_URLCONF = 'mysite.urls'
@@ -200,6 +206,10 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 SERVER_EMAIL = EMAIL_HOST_USER
 EMAIL_ADMIN = EMAIL_HOST_USER
 
+LOGFILE_NAME = BASE_DIR / 'log.txt'
+LOGFILE_SIZE = 400
+# LOGFILE_SIZE = 1 * 1024 * 1024
+LOGFILE_COUNT = 3
 
 # LOGGING = {
 #     'version': 1,
