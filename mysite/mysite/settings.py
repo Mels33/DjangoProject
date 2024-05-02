@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-&z6-ydtxx-4oc%hf=cc)s%8!%e!rw9v4718e%q_6&5=urau96s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
@@ -42,12 +42,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.admindocs',
+
 
     'rest_framework',
     'django_filters',
     'drf_spectacular',
     'debug_toolbar',
+    'django.contrib.admindocs',
 
     'shop.apps.ShopConfig',
     'requestdataapp.apps.RequestdataappConfig',
@@ -208,7 +209,7 @@ EMAIL_ADMIN = EMAIL_HOST_USER
 
 LOGFILE_NAME = BASE_DIR / 'log.txt'
 LOGFILE_SIZE = 400
-# LOGFILE_SIZE = 1 * 1024 * 1024
+#LOGFILE_SIZE = 1 * 1024 * 1024
 LOGFILE_COUNT = 3
 
 # LOGGING = {
@@ -232,3 +233,34 @@ LOGFILE_COUNT = 3
 #         }
 #     },
 # }
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "verbose": {
+            "format": "%(asctime)s [%(levelname)s] in %(name)s: %(message)s",
+        }
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "verbose",
+        },
+        "logfile": {
+            # "class": "logging.handlers.TimedRotatingFileHandler",
+            "class": "logging.handlers.RotatingFileHandler",
+            "filename": LOGFILE_NAME,
+            "maxBytes": LOGFILE_SIZE,
+            "backupCount": LOGFILE_COUNT,
+            "formatter": "verbose",
+        }
+    },
+    "root": {
+        "handlers": [
+            "console",
+            "logfile"
+        ],
+        "level": "DEBUG",
+    }
+}
