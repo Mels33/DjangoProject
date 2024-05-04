@@ -1,6 +1,7 @@
 2024-05-02 16:58:15,504 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
 2024-05-02 16:58:18,454 [WARNING] in django.request: Not Found: /favicon.ico
 2024-05-02 16:58:26,694 [WARNING] in django.request: Not Found: /shop/
+<<<<<<< HEAD
 2024-05-02 20:03:49,933 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
 2024-05-04 13:23:40,689 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
 2024-05-04 13:23:55,310 [DEBUG] in shop.views: Products Welcome to my shop!
@@ -9,3 +10,6 @@
 2024-05-04 13:26:41,346 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
 2024-05-04 13:35:51,907 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
 2024-05-04 13:35:53,017 [INFO] in shop.views: Rendering shop index
+=======
+2024-05-03 16:50:58,083 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+>>>>>>> origin/main
