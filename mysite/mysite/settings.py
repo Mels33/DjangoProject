@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'django.contrib.admindocs',
 
+
     'shop.apps.ShopConfig',
     'requestdataapp.apps.RequestdataappConfig',
     'myauth.apps.MyauthConfig',
@@ -157,6 +158,10 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 
+ALLOWED_HOSTS = [
+    "localhost",
+    '127.0.0.1',
+]
 
 
 INTERNAL_IPS = [
@@ -165,6 +170,15 @@ INTERNAL_IPS = [
     # ...
 ]
 
+if DEBUG:
+    import socket
+
+    hostname, _, ips = socket.gethostbyname_ex(socket.gethostname())
+    INTERNAL_IPS.append("10.0.2.2")
+    INTERNAL_IPS.extend(
+        [ip[: ip.rfind('.')] + '.1' for ip in ips]
+
+    )
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -208,31 +222,8 @@ SERVER_EMAIL = EMAIL_HOST_USER
 EMAIL_ADMIN = EMAIL_HOST_USER
 
 LOGFILE_NAME = BASE_DIR / 'log.txt'
-LOGFILE_SIZE = 400
-#LOGFILE_SIZE = 1 * 1024 * 1024
+LOGFILE_SIZE = 1 * 1024 * 1024
 LOGFILE_COUNT = 3
-
-# LOGGING = {
-#     'version': 1,
-#     'filters': {
-#         'require_debug_true': {
-#             '()': 'django.utils.log.RequireDebugTrue',
-#         },
-#     },
-#     'handlers': {
-#         'console': {
-#             'level': 'DEBUG',
-#             'filters': ['require_debug_true'],
-#             'class': 'logging.StreamHandler',
-#         },
-#     },
-#     'loggers': {
-#         'django.db.backends': {
-#             'level': 'DEBUG',
-#             'handlers': ['console'],
-#         }
-#     },
-# }
 
 LOGGING = {
     "version": 1,
@@ -264,3 +255,4 @@ LOGGING = {
         "level": "DEBUG",
     }
 }
+

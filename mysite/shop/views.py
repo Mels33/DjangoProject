@@ -1,3 +1,5 @@
+import logging
+
 from django.contrib.auth.models import Group
 from django.http import HttpRequest, HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, reverse, redirect
@@ -13,6 +15,8 @@ from rest_framework.viewsets import ModelViewSet
 from .models import Product, Order
 from .forms import GroupForm
 from .serializers import ProductSerializer, OrderSerializer
+
+logger = logging.getLogger(__name__)
 
 def index(request: HttpRequest) -> HttpResponse:
     """
@@ -31,6 +35,8 @@ def index(request: HttpRequest) -> HttpResponse:
         'runtime': default_timer(),
         'hello': welcome_text
     }
+
+    logger.info("Rendering shop index")
 
     return render(request, 'shop/index.html', context)
 
