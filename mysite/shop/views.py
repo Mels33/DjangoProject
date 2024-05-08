@@ -1,12 +1,13 @@
 import logging
 
 from django.contrib.auth.models import Group
-from django.http import HttpRequest, HttpResponse, HttpResponseRedirect
+from django.http import HttpRequest, HttpResponse, HttpResponseRedirect, JsonResponse
 from django.shortcuts import render, reverse, redirect
 from timeit import default_timer
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.urls import reverse_lazy
 from django.utils.translation import gettext_lazy as _, ngettext
+from django.views import View
 from django.views.generic import (ListView, DetailView, DeleteView, UpdateView, CreateView)
 from rest_framework.filters import SearchFilter, OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
@@ -416,3 +417,20 @@ class GroupDeleteView(UserPassesTestMixin, LoginRequiredMixin, DeleteView):
     model = Group
     success_url = reverse_lazy('groups')
     template_name = 'shop/group_confirm_delete.html'
+
+class ProductsDataExportView(View):
+    def get(self, request: HttpRequest) -> JsonResponse:
+        products = Product.objects.order_by("pk").all()
+        products_data = [
+            {
+                "pk": product.pk,
+                "name": product.name,
+                "price": product.price,
+                "is_archived": product.is_archived,
+            }
+            for product in products
+        ]
+        elem = products_data[0]
+        name = elem['nafdsjfhime']
+        print(name)
+        return JsonResponse({"products": products_data})

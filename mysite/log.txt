@@ -13,3 +13,1194 @@
 =======
 2024-05-03 16:50:58,083 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
 >>>>>>> origin/main
+2024-05-08 18:07:10,764 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 18:07:13,857 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507220180795392.ingest.de.sentry.io:443
+2024-05-08 18:07:13,859 [INFO] in shop.views: Rendering shop index
+2024-05-08 18:07:14,188 [WARNING] in django.request: Not Found: /favicon.ico
+2024-05-08 18:07:14,885 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 18:07:14,976 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 18:07:15,080 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 18:07:15,182 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 18:07:15,279 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 18:07:15,379 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 18:07:15,489 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 18:07:53,788 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:10:12,010 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 20:10:24,847 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507221223473152.ingest.de.sentry.io:443
+2024-05-08 20:10:24,854 [INFO] in shop.views: Rendering shop index
+2024-05-08 20:10:26,428 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:10:26,612 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:10:26,724 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:10:26,916 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:10:27,014 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:10:27,135 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:10:51,085 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:10:51,183 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:10:51,288 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:10:51,392 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:11:24,915 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:12:39,335 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:12:55,701 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:12:55,888 [ERROR] in django.request: Internal Server Error: /en/products/export/
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\mysite\shop\views.py", line 424, in get
+    products_data = [
+                    ^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\utils.py", line 1711, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\__init__.py", line 629, in execute
+    result = real_execute(self, sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: product
+2024-05-08 20:12:55,909 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:12:56,076 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:13:24,993 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:15:53,108 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 20:15:54,604 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507221223473152.ingest.de.sentry.io:443
+2024-05-08 20:15:54,604 [INFO] in shop.views: Rendering shop index
+2024-05-08 20:15:55,622 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:15:55,727 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:05,555 [WARNING] in django.request: Not Found: /en/export/
+2024-05-08 20:16:10,041 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:35,558 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:35,707 [ERROR] in django.request: Internal Server Error: /en/products/export/
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\mysite\shop\views.py", line 424, in get
+    products_data = [
+                    ^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\utils.py", line 1711, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\__init__.py", line 629, in execute
+    result = real_execute(self, sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: product
+2024-05-08 20:16:35,870 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:36,074 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:47,031 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:47,169 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:47,338 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:47,440 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:47,646 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:47,741 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:47,848 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:47,943 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:48,027 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:54,707 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:55,972 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:16:55,921 [ERROR] in django.request: Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 88, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 197, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 328, in full_clean
+    self._clean_form()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 349, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\forms.py", line 250, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 79, in authenticate
+    user = backend.authenticate(request, **credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\base_user.py", line 56, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\utils.py", line 1711, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\__init__.py", line 629, in execute
+    result = real_execute(self, sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: user
+2024-05-08 20:16:56,862 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:17:46,523 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:17:46,523 [ERROR] in django.request: Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 88, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 197, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 328, in full_clean
+    self._clean_form()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 349, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\forms.py", line 250, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 79, in authenticate
+    user = backend.authenticate(request, **credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\base_user.py", line 56, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\utils.py", line 1711, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\__init__.py", line 629, in execute
+    result = real_execute(self, sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: user
+2024-05-08 20:17:46,934 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:17:53,263 [INFO] in shop.views: Rendering shop index
+2024-05-08 20:17:53,386 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:17:53,489 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:17:54,717 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:18:00,964 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:18:01,062 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:18:01,169 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:18:09,356 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:18:13,460 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:18:21,649 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:18:54,725 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:19:03,493 [ERROR] in django.request: Internal Server Error: /en/accounts/registration/
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 197, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 327, in full_clean
+    self._clean_fields()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 342, in _clean_fields
+    value = getattr(self, "clean_%s" % name)()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\forms.py", line 163, in clean_username
+    and self._meta.model.objects.filter(username__iexact=username).exists()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 1288, in exists
+    return self.query.has_results(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\sql\query.py", line 659, in has_results
+    return compiler.has_results()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1530, in has_results
+    return bool(self.execute_sql(SINGLE))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\utils.py", line 1711, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\__init__.py", line 629, in execute
+    result = real_execute(self, sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: user
+2024-05-08 20:19:03,536 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:19:03,735 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:19:14,890 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:19:14,994 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:19:15,103 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:19:31,339 [ERROR] in django.request: Internal Server Error: /en/accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 88, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 197, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 328, in full_clean
+    self._clean_form()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 349, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\forms.py", line 250, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 79, in authenticate
+    user = backend.authenticate(request, **credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\base_user.py", line 56, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\utils.py", line 1711, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\__init__.py", line 629, in execute
+    result = real_execute(self, sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: user
+2024-05-08 20:19:31,416 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:19:31,588 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:19:54,730 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:22:47,273 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 20:22:49,343 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507221223473152.ingest.de.sentry.io:443
+2024-05-08 20:22:49,349 [INFO] in shop.views: Rendering shop index
+2024-05-08 20:22:50,146 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:22:50,347 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:22:59,054 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:22:59,256 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:22:59,357 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:23:12,673 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:23:12,775 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:23:12,846 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:23:12,964 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:23:30,025 [ERROR] in django.request: Internal Server Error: /en/accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 88, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 197, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 328, in full_clean
+    self._clean_form()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 349, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\forms.py", line 250, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 79, in authenticate
+    user = backend.authenticate(request, **credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\base_user.py", line 56, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\utils.py", line 1711, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\__init__.py", line 629, in execute
+    result = real_execute(self, sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: user
+2024-05-08 20:23:30,180 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:23:30,389 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:23:37,044 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:23:49,427 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:23:50,079 [WARNING] in django.request: Not Found: /shop/
+2024-05-08 20:23:50,172 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:23:54,429 [INFO] in shop.views: Rendering shop index
+2024-05-08 20:23:54,554 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:23:54,763 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:24:01,005 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:24:01,109 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:24:49,443 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:25:50,475 [INFO] in django.utils.autoreload: C:\Users\USER\Desktop\python\pythonProject\DjangoProject\mysite\shop\views.py changed, reloading.
+2024-05-08 20:25:51,449 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 20:26:01,969 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507221223473152.ingest.de.sentry.io:443
+2024-05-08 20:26:01,977 [INFO] in shop.views: Rendering shop index
+2024-05-08 20:26:02,766 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:26:02,863 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:26:02,963 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:26:03,069 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:26:03,273 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:26:03,373 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:26:21,085 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:26:21,185 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:26:21,291 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:26:21,399 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:26:39,727 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:26:39,672 [ERROR] in django.request: Internal Server Error: /en/accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 88, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 197, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 328, in full_clean
+    self._clean_form()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\forms\forms.py", line 349, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\forms.py", line 250, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 79, in authenticate
+    user = backend.authenticate(request, **credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\base_user.py", line 56, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\utils.py", line 1711, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\__init__.py", line 629, in execute
+    result = real_execute(self, sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: user
+2024-05-08 20:26:40,146 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:27:02,043 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:28:35,415 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:28:35,484 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:28:35,644 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:28:40,765 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:28:47,989 [ERROR] in django.request: Internal Server Error: /en/accounts/reset-password/
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 227, in dispatch
+    return super().dispatch(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 240, in form_valid
+    form.save(**opts)
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\forms.py", line 364, in save
+    for user in self.get_users(email):
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\contrib\auth\forms.py", line 333, in get_users
+    return (
+           ^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\utils.py", line 1711, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\__init__.py", line 629, in execute
+    result = real_execute(self, sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: user
+2024-05-08 20:28:48,441 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:28:48,540 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:29:02,065 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:29:05,751 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:29:09,951 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:29:40,061 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507221223473152.ingest.de.sentry.io:443
+2024-05-08 20:29:40,772 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:30:35,153 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 20:30:35,625 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507221223473152.ingest.de.sentry.io:443
+2024-05-08 20:30:36,177 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:30:36,254 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:30:43,535 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:30:43,773 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:30:43,953 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:30:44,057 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:30:44,259 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:30:53,937 [WARNING] in django.request: Not Found: /admin/export/
+2024-05-08 20:30:54,090 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:31:25,244 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:31:25,526 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:31:28,908 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:31:35,770 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:31:44,060 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:31:44,166 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:31:55,501 [ERROR] in django.request: Internal Server Error: /en/products/export/
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\mysite\shop\views.py", line 434, in get
+    name = elem['namdde']
+           ~~~~^^^^^^^^^^
+KeyError: 'namdde'
+2024-05-08 20:31:55,633 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:31:55,739 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:32:32,464 [INFO] in django.utils.autoreload: C:\Users\USER\Desktop\python\pythonProject\DjangoProject\mysite\shop\views.py changed, reloading.
+2024-05-08 20:32:32,605 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:32:33,572 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 20:32:59,460 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507221223473152.ingest.de.sentry.io:443
+2024-05-08 20:33:00,254 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:33:59,540 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:36:57,757 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 20:36:59,417 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507221223473152.ingest.de.sentry.io:443
+2024-05-08 20:36:59,421 [INFO] in shop.views: Rendering shop index
+2024-05-08 20:37:00,277 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:37:00,471 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:37:06,109 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:37:06,214 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:37:13,177 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:37:59,561 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:39:48,955 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 20:39:56,059 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507221223473152.ingest.de.sentry.io:443
+2024-05-08 20:39:56,725 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:40:00,791 [ERROR] in django.request: Internal Server Error: /en/products/export/
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\python\pythonProject\DjangoProject\mysite\shop\views.py", line 434, in get
+    name = elem['nafdsjfhime']
+           ~~~~^^^^^^^^^^^^^^^
+KeyError: 'nafdsjfhime'
+2024-05-08 20:40:00,942 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
+2024-05-08 20:40:01,116 [DEBUG] in urllib3.connectionpool: https://o4507221223473152.ingest.de.sentry.io:443 "POST /api/4507221645852752/envelope/ HTTP/1.1" 200 0
